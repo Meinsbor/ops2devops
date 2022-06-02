@@ -8,6 +8,7 @@ spec:
       app: student01
   template:
     metadata:
+      namespace: student01
       labels:
         app: student01
     spec:
